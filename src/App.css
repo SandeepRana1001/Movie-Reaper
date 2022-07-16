@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Montserrat:ital,wght@0,400;0,600;0,800;1,700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  /* font-family: 'Lato', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.themeColor {
+  color: #16a085;
+}
+
+.themeBGColor {
+  background: linear-gradient(to right, #3498db,
+      #2980b9);
+  color: white !important;
+}
+
+.themeButton {
+  background-color: #16a085;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50px;
+}
+
+.themeButton .icon {
+  padding-left: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.themeButton:hover {
+  background-color: #0f836b;
+}
+
+.themeButton:hover .icon {
+  transform: translateX(5px);
+}
+
+section {
+  padding: 1rem 0 5rem 0;
+}
+
+.heading {
+  margin: 30px 0;
+  padding: 1rem 0;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.heading_links {}
+
+.heading:hover {
+  color: #16a085;
+  transform: scale(1.1);
+}
+
+.heading:hover a {
+  color: #16a085;
+}
+
+.border {
+  border: 2px solid red !important;
+}

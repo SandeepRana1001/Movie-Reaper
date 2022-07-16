@@ -1,0 +1,15 @@
+.banner {
+    background-image: linear-gradient(45deg,
+            rgba(44, 62, 80, 0.9),
+            rgba(44, 62, 80, 1)),
+        url('../../../public/images/endgame.jpg');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    color: white;
+}
+
+.center_box {
+    margin: 70px 0;
+}

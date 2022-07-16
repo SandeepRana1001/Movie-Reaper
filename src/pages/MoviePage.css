@@ -1,0 +1,60 @@
+.img_holder {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img_holder img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.img_holder img:hover {
+    transform: scale(1.1);
+
+}
+
+.movie-heading {
+    margin: 20px 0;
+    font-size: 30 rem !important;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: Helvetica;
+    color: white;
+}
+
+.moviePage {
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.available {
+    border: 1px solid white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.available span {
+    margin-left: 10px;
+}
+
+.available:hover {
+    color: #16a085;
+    border: 1px solid #16a085;
+}
+
+.btn {
+    background-color: #16a085;
+    border: 0px;
+}
+
+.btn span {
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background-color: #138871;
+}
